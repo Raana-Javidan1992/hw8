@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body, html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+  /* overflow-y: hidden; */
+}
+.carousel-inner img {
+  object-fit: cover;
+  height:400px;
+}
+.new-class .col-md-3 .card-body{
+  margin-top: 70px;
+}
+.new-class .col-md-3 .card-body img{
+  border-radius: 50%;
+}
+.new-class .col-md-3 .card{
+  width: 350px;
+  height: 300px;                
+}
+.new-class .col-md-3 .new-class1 {        
+  background-color: rgb(202, 200, 200);
+} 
+.new-class .col-md-3 .new-class2 {     
+  background-color: rgb(236, 236, 236);  
+}
+
+.the-sec{
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+.badgi-icon{
+  background-color: black;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+.badgi-icon svg{
+  margin-top: 45px;
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+}
+.badge{
+  float: right;
+  color: black;
+  background-color:#ffc107;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 17px;
+}
+
+
+.underline{
+  text-decoration: none; 
+  position: relative; 
+}
+
+.underline:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  bottom: -4px; 
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 2.5%;
+  background: black;
+}
+
+
+.arr{
+  position: absolute;
+  font-size: 80px;
+  left: -40px;
+  top: 5%;
+  color: #818181;
+  opacity: 1;
+  width: 20px;
+}
+.new-card{
+  background-color: rgb(236, 236, 236);
+  height: 450px;
+}
+.new-image img{
+  width: 400px; 
+  height: 350px;
+  float: right;
+  margin: 50px 0;
+}
+.mbr-list li{
+  list-style: none;
+}
+.mbr-list li::before{
+  color: rgb(255, 188, 0);
+  display: inline-block;
+  content: "✓";
+  text-align: center;
+  line-height: 1.5em;
+  width: 25px;
+  height: 25px;
+}
+
+.social-media ul{
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-list{
+  display: flex;
+}
+.social-list li{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.social-list li svg{
+  width: 30px;
+  height: 30px;
+}
+.mb-3{
+  margin-bottom: 0 !important;
+}
+
+.row-l{
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+.row-l .col-md-6{
+  width: 100% !important;
+  padding-top: 32px;
+
+}
+.row-l .col-md-6 h6{
+  margin-left: 150px;
+
+}
+.social-list2 {
+  display: flex;
+  float: right;
+  margin-right: 150px;
+}
+.social-list2 li{
+  list-style: none;
+  margin-left: 20px;
+  
+}
+.social-list2 li svg{
+  width: 15px;
+  height: 15px;
+}
